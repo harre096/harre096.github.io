@@ -1,2 +1,2 @@
 # harre096.github.io
-Thomas Harren Homepage
+Thomas Harren's Homepage
