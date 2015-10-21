@@ -40,12 +40,6 @@ body {
 	color:  #38BDCC;
 }
 
-.blackDrop{
-  background-color:black;
-  border-radius:50%;
-}
-
-
 #thPhoto {
   max-height:20em;
   border-radius: 2em;
@@ -55,6 +49,10 @@ body {
   padding: 5em 0em;
 }
 
+.blackMaroon {
+	background-color: black;
+  color: #8c1919;
+}
 .black {
 	background-color: black;
   color: #38BDCC;
