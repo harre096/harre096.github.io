@@ -18,6 +18,33 @@ body {
   font-size:8em;
 }
 
+.snow .uno {
+  border-radius: 20px 5px 5px 5px;
+}
+.snow .dos {
+  border-radius: 5px 20px 5px 5px;
+}
+.snow .links{
+  /*width:15em;*/
+	margin:.5em;
+  font-size:2em;
+	box-shadow: 0 0 0 3px  #9FDCFF;
+	color:  #9FDCFF;
+}
+
+.snow a:hover{
+  /*width:15em;*/
+	margin:.5em;
+  font-size:2em;
+	box-shadow: 0 0 0 3px  #38BDCC;
+	color:  #38BDCC;
+}
+
+.blackDrop{
+  background-color:black;
+  border-radius:50%;
+}
+
 
 #thPhoto {
   max-height:20em;
