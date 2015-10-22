@@ -9,6 +9,12 @@ body {
   padding: 5em 0em;
 }
 
+.col-centered{
+	float: none;
+	margin: 0 auto;
+	/*padding: 5em 5em 5em 5em;*/
+}
+
 /*Color blocks*/
 .blackM {
 	background-color: black;
@@ -52,15 +58,15 @@ body {
 .snow .dos {
   border-radius: 5px 20px 5px 5px;
 }
-.snow .links{
+.snow a{
+	width:40%;
+	max-width: 9em;
 	margin:.5em;
   font-size:2em;
 	box-shadow: 0 0 0 3px  #9FDCFF;
 	color:  #9FDCFF;
 }
 .snow a:hover{
-	margin:.5em;
-  font-size:2em;
 	box-shadow: 0 0 0 3px  #38BDCC;
 	color:  #38BDCC;
 }
