@@ -8,11 +8,13 @@ body {
 .pad{
   padding: 5em 0em;
 }
+.smallPad{
+  padding: 2em 0em;
+}
 
 .col-centered{
 	float: none;
 	margin: 0 auto;
-	/*padding: 5em 5em 5em 5em;*/
 }
 
 /*Color blocks*/
@@ -73,9 +75,14 @@ body {
 }
 
 /*Formating of headshot*/
-#thPhoto {
+.roundPhoto {
   max-height:20em;
   border-radius: 2em;
+}
+
+.bio p{
+	font-size: 1.5em;
+	line-spacing: 5em;
 }
 
 /*Activites list formatting*/
@@ -89,12 +96,21 @@ body {
 }
 
 /*For tools section*/
+.tools .glyphicon{
+	font-size: 3em;
+}
 .pics img{
 	max-width: 12em;
 	width: 100%;
 	height: auto;
 }
+#mysql{
+	transform: translateY(-9%);
+}
 
-.tools .glyphicon{
-	font-size: 3em;
+/*For github guy at bottom*/
+#ghProfile{
+	float: center;
+	padding: 1em;
+	max-width: 5em;
 }
