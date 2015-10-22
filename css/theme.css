@@ -61,6 +61,7 @@ body {
 .snow a{
 	width:40%;
 	max-width: 9em;
+	min-width: 3em;
 	margin:.5em;
   font-size:2em;
 	box-shadow: 0 0 0 3px  #9FDCFF;
