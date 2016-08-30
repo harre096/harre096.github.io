@@ -43,8 +43,6 @@ body {
 /*Image and links in welcome section*/
 .snow {
   min-height:50em;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 8%;
   padding-bottom: 50%;
   background: url(../img/Minnesota.jpg);
@@ -66,12 +64,15 @@ body {
 	min-width: 3em;
 	margin:.5em;
   font-size:2em;
-	box-shadow: 0 0 0 3px  #9FDCFF;
-	color:  #9FDCFF;
+	box-shadow: 0 0 0 3px  #3d5d83;
+	color:  #3d5d83;
+	/* 9FDCFF*/
 }
 .snow a:hover{
-	box-shadow: 0 0 0 3px  #38BDCC;
-	color:  #38BDCC;
+	color:  #3d5d83;
+	box-shadow: 0 0 0 3px  #3d5d83;
+	background-color: rgba(127, 176, 204, 0.3)/*#7FB0CC*/;
+
 }
 
 /*Formating of headshot*/
