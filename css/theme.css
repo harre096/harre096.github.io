@@ -20,24 +20,28 @@ body {
 /*Color blocks*/
 .blackM {
 	background-color: black;
-  color: #CCBA38;
+  	color: #CCBA38;
 }
 .black {
 	background-color: black;
-  color: #38BDCC;
+  	color: rgb(164, 174, 230);
 }
 .tan {
 	background-color: #999576;
 }
 .blue {
-  background-color: #38BDCC;
+  	background-color: #38BDCC;
 	color: white;
 }
 .gold {
-  background-color: #CCBA38;
+	background-color: rgb(247, 244, 218);
 }
 .lblue {
-  background-color: #9FDCFF;
+	background-color: #9FDCFF;
+}
+.purple {
+	background-color: rgb(37, 29, 59);
+	color: white;
 }
 
 /*Image and links in welcome section*/
@@ -63,7 +67,7 @@ body {
 	max-width: 9em;
 	min-width: 3em;
 	margin:.5em;
-  font-size:2em;
+ 	font-size:2em;
 	box-shadow: 0 0 0 3px  #3d5d83;
 	color:  #3d5d83;
 	/* 9FDCFF*/
@@ -81,15 +85,20 @@ body {
   border-radius: 2em;
 }
 
-.bio p{
+.bio p, .tools p{
 	font-size: 1.5em;
 	line-spacing: 5em;
+}
+
+/* Work Fomatting */
+.workPic {
+	padding-top: 1.5em;
 }
 
 /*Activites list formatting*/
 .bulletList{
 	font-size: 1.5em;
-	pading:.9em;
+	padding:.9em;
 }
 
 .bulletList li{
