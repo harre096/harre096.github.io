@@ -44,6 +44,10 @@ body {
 	color: white;
 }
 
+.papayawhip{
+	background-color: papayawhip;
+}
+
 /*Image and links in welcome section*/
 .snow {
   min-height:50em;
